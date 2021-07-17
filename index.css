@@ -1,0 +1,77 @@
+body {
+    background-position:px;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+background-color: rgb(105, 140, 255);
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    border-bottom:#555;
+    display: unset;
+    padding-left: 8em;
+} */
+h1 {
+    color: greenyellow;
+    background-color: rgb(105, 140, 255);
+    text-align: center;
+    border: 1px;
+    font-family: cursive;
+}
+h2 {
+    text-align: center;
+    font-style: italic;
+    color: mediumblue;
+}
+#h3 {
+    text-align: center;
+}
+/* li {
+    align-items: flex-end;
+} */
+img {
+    height: 300px;
+    border-image-outset: 3ch;
+    padding: 20px;
+}
+#will {
+    position: relative;
+    left: 550px;
+}
+nav{
+    margin: 0 auto;
+    padding: 1px 0;
+    margin-left: 0%;
+    text-underline-position: below;
+    color:black;
+ }
+ nav>ul{
+   text-align:center;
+ }
+ nav>ul>li{display:inline-block;}
+ nav>ul>li>a{
+ padding: 3px;
+ margin-right: 0;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ color: black;
+ background-color: gray;
+ }
+ nav>ul>li>a:hover{
+     background-color: aqua;
+     color: black;
+ }
+  
+  /* Add a color to the active/current link */
+  nav>ul>li>a:active {
+    background-color: #4c82af;
+    color: white;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap')
+
+
